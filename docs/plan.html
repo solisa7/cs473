@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//Tigris//DTD XHTML 1.0 Transitional//EN"
+"http://style.tigris.org/tigris_transitional.dtd">
+<html>
+<head>
+ <style type="text/css">
+/* <![CDATA[ */ 
+@import "css/readyset.css"; 
+@import "css/inst.css";
+/*  ]]> */
+ </style>
+
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+ <title>Project Plan</title>
+</head>
+
+<body>
+<div class="app">
+<div class="readyset">
+ <h2>Project Plan</h2>
+
+ <div id="projectinfo">
+ <h3>Project Information</h3>
+ <table border="1" cellpadding="3" cellspacing="2" class="axial">
+  <tr>
+   <th>Project:</th> 
+   <td><a href="index.html">Apples</a></td>
+  </tr>
+  <tr>
+   <th>Project Time-frame:</th> 
+   <td>Jan 25, 2012 - Feb 15, 2012</td>
+  </tr>
+  <tr>
+   <th>Attached worksheets:</th> 
+   <td>
+    <div>Plan &gt; <a href="resource-needs.html">Resource needs</a></div>
+   </td>
+  </tr>
+  <tr>
+   <th>Related Documents:</th> 
+   <td>
+    <div><a href="proposal.html">Project proposal</a> &gt;
+         <a href="target-and-benefits.html">Target audience and benefits</a></div>
+    <div><a href="sdm.html">Software development methodology</a></div>
+    <div><a href="glossary.html">Glossary</a></div>
+   </td>
+  </tr>
+ </table>
+ </div> <!-- /projectinfo -->
+
+ <div id="processimpact">
+  <strong>Process impact:</strong> This plan will
+  be used to evaluate and manage the project.  Key assumptions that
+  affect the plan should be documented here.  The project plan should
+  be updated throughout the life-time of the project.
+ </div> <!-- /processimpact -->
+
+<!-- alex
+ <div class="todo">
+  TODO: Fill in the information above and below.  Add or remove rows as
+  needed. Use the worksheet to help identify and scope resource needs.
+ </div>
+-->
+
+ <div id="summary">
+ <h3>Summary of Project</h3>
+
+ <div class="sample1">
+ <p>Our project involves a game to entertain its audience.  The objective of the game is to collect apples from a tree after an earthquake, while avoiding birds.</p>
+<!-- alex
+ <p>IF YOU PLAN TO ORGANIZE YOUR WORK ACCORDING TO A ROUGH BREAKDOWN
+ OF SOFTWARE COMPONENTS, BRIEFLY DESCRIBE THOSE COMPONENTS HERE.
+ FOUR TO TEN BULLETS.</p>
+ -->
+ </div>
+ </div> <!-- /summary -->
+
+
+ <div id="methodology">
+ <h3>Summary of Methodology</h3>
+ <dl>
+  <dt>What general development approach will be used?</dt> 
+
+  <dd class="sample1">We will be using the Agile model, an iterative and incremental approach.  We will try to obtain certain milestones in terms of class days or weekends.  Tasks will be assigned at each milestone for the next milestone.   For more information see the <a
+  href="sdm.html">Software Development Methodology</a>.</dd>
+
+
+  <dt>How will the project team be organized?</dt> 
+ 
+  <dd class="sample1">The development team will consist of primarily all of us.</dd>
+
+  <dd class="sample2">The change control board will consist of all of us.</dd>
+
+  <dt>What development and collaboration tools will be use?</dt> 
+
+  <dd>We plan to use the following tools
+ extensively through out the project:
+   <ul>
+    <li>Github + Git for version control</li>
+    <li>Email for communication</li>
+   </ul>
+  </dd>
+
+
+  <dt>How will changes be controlled?</dt> 
+
+  <dd class="sample1">
+   <ul>
+    <li>Requests for requirements changes will be tracked via email.
+    <!-- alex<li>The change control board (<a class="def"
+    href="glossary-std.html#ccb">CCB</a>) will review requested
+    changes and authorize work on them as appropriate</li>-->
+    
+    <li>After the <a class="def"
+    href="glossary-std.html#featurecomplete">feature complete</a>
+    milestone, no new features will be added to this release.</li>
+    
+    <li>After the <a class="def"
+    href="glossary-std.html#codecomplete">code complete</a> milestone,
+    no entirely new product source code will be added to this
+    release.</li>
+    
+    <li>All commits must include general details of modifications made.</li>
+    
+   </ul>
+  </dd>
+
+  
+  <dt>How will this plan be updated?</dt> 
+
+  <dd>This project plan will be updated as needed throughout the
+  project.  It will be placed under version control and instructions
+  for accessing it will be on the <a href="https://github.com/solisa7/cs473">Github
+  website</a>.  Any change to the Github repository will appear on the RSS feed for the developer.</dd>
+ </dl>
+ </div> <!-- /methodology -->
+
+
+
+ <div id="wbs">
+ <h3>Work Breakdown Structure and Estimates</h3>
+<!-- alex
+ <div class="todo">
+  TODO: List tasks that will be needed for this project.  Keep
+  dividing tasks into subtasks until you feel that you have enough
+  detail to expose risks and make reasonable estimates in ideal
+  engineering hours.
+ </div>
+
+ <div class="tip">
+  TIP: Label each step uniquely to show its position in the WBS,
+  e.g., Step 1.1.4.A.  Use numbers for steps that you intend to do
+  in sequence, and use letters for steps that you intend to do in
+  parallel.  E.g., Step 1.1 comes before Steps 1.2.A and 1.2.B, but
+  those two steps may be done in parallel, and Step 1.3 will be done
+  after all 1.2.* steps have been finished.  Don't worry about
+  renumbering if you delete a step.
+ </div>
+-->
+ <div class="sample1">
+ <table border="1" cellpadding="3" cellspacing="2">
+ <tr><th>Step</th><th>Description</th><th>Estimate</th></tr>
+
+ <tr><th>1.</th><td>Preparation</td><td></td></tr>
+
+ <tr><th>1.1.</th><td class="level2">Developer training</td><td>12h</td></tr>
+
+
+ <tr><th>2.</th><td>Inception</td><td></td></tr>
+
+ <tr><th>2.1.</th><td class="level2">Requirements gathering</td><td>3h</td></tr>
+
+ <tr><th>2.2.</th><td class="level2">Requirements specification</td><td>2h</td></tr>
+
+ <tr><th>2.3.</th><td class="level2">Requirements validation</td><td>1h</td></tr>
+
+
+ <tr><th>3.</th><td>Elaboration</td><td></td></tr>
+
+ <tr><th>3.1.</th><td class="level2">High-level design</td><td>5h</td></tr>
+
+ <tr><th>3.2.</th><td class="level3">Low-level design (break down by component)</td><td></td></tr>
+
+ <tr><th>3.2.A.</th><td class="level4">Object design</td><td>15h</td></tr>
+
+ <tr><th>3.2.B.</th><td class="level4">User interface design</td><td>20h</td></tr>
+
+ <tr><th id="TASK-3.2.C">3.2.C.</th><td class="level4">Sprite design</td><td>15h</td></tr>
+
+ <tr><th>3.3.</th><td class="level3">Design review and evaluation</td><td>3h</td></tr>
+
+
+ <tr><th>4.</th><td>Construction</td><td></td></tr>
+
+ <tr><th>4.1.A.</th><td class="level2">System implementation</td><td></td></tr>
+<!-- alex
+ <tr><th>4.1.A.1.</th><td class="level3">Implement COMPONENT-NAME 1</td><td>25h</td></tr>
+
+ <tr><th>4.1.A.2.</th><td class="level3">Implement COMPONENT-NAME 2</td><td>25h</td></tr>
+
+ <tr><th>4.1.A.3.</th><td class="level3">Implement COMPONENT-NAME 3</td><td>25h</td></tr>
+
+ <tr><th>4.1.A.4.</th><td class="level3">Implement COMPONENT-NAME 4</td><td>25h</td></tr>
+
+ <tr><th>4.1.A.5.</th><td class="level3">
+  <div>Integrate Components</div>
+  <div>(mostly done during component implementation)</div>
+ </td><td>5h</td></tr>
+-->
+ <tr><th>4.1.B.</th><td class="level2">Technical documentation (break down by component)</td><td>5h</td></tr>
+
+ <tr><th>4.1.C.</th><td class="level2">User documentation (break down by component)</td><td>5h</td></tr>
+
+ <tr><th>4.1.D.</th><td class="level2">Testing</td><td></td></tr>
+
+ <tr><th>4.1.D.1.</th><td class="level3">Test planning</td><td>5h</td></tr>
+
+ <tr><th>4.1.D.2.</th><td class="level3">Test code implementation (break down by component)</td><td>10h</td></tr>
+
+ <tr><th>4.1.D.3.</th><td class="level3">Test execution</td><td>10h</td></tr>
+
+ <tr><th>4.2.</th><td class="level2">Implementation review and evaluation</td><td>15h</td></tr>
+
+
+ <tr><th>5.</th><td>Transition</td><td></td></tr>
+
+ <tr><th>5.A.</th><td class="level2">Release packaging</td><td>2h</td></tr>
+ 
+ <tr><th>5.B.</th><td class="level2">Documentation for other groups</td><td>1h</td></tr>
+
+
+ <tr><th>6.</th><td>Reflection</td><td></td></tr>
+<!-- alex
+ <tr><th>6.1. </th><td class="level2">Postmortem report</td><td>10h</td></tr>
+-->
+
+ <tr><th></th><th>Total</th><th>TBD hours</th></tr>
+ </table>
+ </div>
+ </div> <!-- /wbs -->
+
+
+ <div id="deliverables">
+ <h3>Deliverables in this Release</h3>
+ <div class="todo">
+  TODO: List project deliverables in detail, with delivery dates.
+ </div>
+
+ <table border="1" cellpadding="3" cellspacing="2" width="100%">
+ <tr>
+  <th>Deliverable Name</th>
+  <th>Description</th>
+  <th>Delivery Date</th>
+ </tr>
+ <tr>
+  <td>Deliverable Name</td>
+  <td>Description</td>
+  <td>Delivery Date</td>
+ </tr>
+ <tr>
+  <td>Deliverable Name</td>
+  <td>Description</td>
+  <td>Delivery Date</td>
+ </tr>
+ <tr>
+  <td>Deliverable Name</td>
+
+  <td>Description Description Description Description Description
+  Description Description Description</td>
+
+  <td>Delivery Date</td>
+ </tr>
+ <tr>
+  <td>Deliverable Name</td>
+  <td>Description</td>
+  <td>Delivery Date</td>
+ </tr>
+
+ </table>
+ </div> <!-- /deliverables -->
+
+
+ <div id="schedule">
+ <h3>Schedule for this Release</h3>
+ <div class="todo">
+  TODO: Make the rows in this table match the steps in your WBS
+  above.  If you have a large number of detailed steps, you can skip
+  the most detailed ones.  The columns of the table represent weeks
+  of calendar time.  For each cell in the table, enter the number of
+  hours ideal engineering time that the team will spend on that task that week.
+  Total your hours across and down.
+ </div>
+ <div class="tip">
+  TIP: These hours should total to the same as the total of the
+  hours listed in your <a href="resource-needs.html">resource
+  needs</a> document.  And, the hours for each type of effort
+  resources needed should correspond to the sum for each type of
+  task.
+ </div>
+
+ <table border="1" cellpadding="3" cellspacing="2" width="100%">
+  <tr>
+   <th>Task \ Week</th>
+   <th>W-01</th>
+   <th>W-02</th>
+   <th>W-03</th>
+   <th>Task Total </th>
+  </tr>
+
+  <tr>
+   <th>1.</th>
+   <td>00</td>  <!-- Week 01 -->
+   <td>00</td>  <!-- Week 02 -->
+   <td>00</td>  <!-- Week 03 -->
+   <th>00</th>  <!-- Task Total -->
+  </tr>
+
+  <tr>
+   <th>2.</th>
+   <td>00</td>  <!-- Week 01 -->
+   <td>00</td>  <!-- Week 02 -->
+   <td>00</td>  <!-- Week 03 -->
+   <th>00</th>  <!-- Task Total -->
+  </tr>
+
+  <tr>
+   <th>3.</th>
+   <td>00</td>  <!-- Week 01 -->
+   <td>00</td>  <!-- Week 02 -->
+   <td>00</td>  <!-- Week 03 -->
+   <th>00</th>  <!-- Task Total -->
+  </tr>
+
+  <tr>
+   <th>4.1.A.</th>
+   <td>00</td>  <!-- Week 01 -->
+   <td>00</td>  <!-- Week 02 -->
+   <td>00</td>  <!-- Week 03 -->
+   <th>00</th>  <!-- Task Total -->
+  </tr>
+
+  <tr>
+   <th>4.1.B.</th>
+   <td>00</td>  <!-- Week 01 -->
+   <td>00</td>  <!-- Week 02 -->
+   <td>00</td>  <!-- Week 03 -->
+   <th>00</th>  <!-- Task Total -->
+  </tr>
+
+  <tr>
+   <th>4.1.C.</th>
+   <td>00</td>  <!-- Week 01 -->
+   <td>00</td>  <!-- Week 02 -->
+   <td>00</td>  <!-- Week 03 -->
+   <th>00</th>  <!-- Task Total -->
+  </tr>
+
+  <tr>
+   <th>4.1.D.</th>
+   <td>00</td>  <!-- Week 01 -->
+   <td>00</td>  <!-- Week 02 -->
+   <td>00</td>  <!-- Week 03 -->
+   <th>00</th>  <!-- Task Total -->
+  </tr>
+
+  <tr>
+   <th>4.2.</th>
+   <td>00</td>  <!-- Week 01 -->
+   <td>00</td>  <!-- Week 02 -->
+   <td>00</td>  <!-- Week 03 -->
+   <th>00</th>  <!-- Task Total -->
+  </tr>
+
+  <tr>
+   <th>5.</th>
+   <td>00</td>  <!-- Week 01 -->
+   <td>00</td>  <!-- Week 02 -->
+   <td>00</td>  <!-- Week 03 -->
+   <th>00</th>  <!-- Task Total -->
+  </tr>
+
+
+  <tr>
+   <th>6.</th>
+   <td>00</td>  <!-- Week 01 -->
+   <td>00</td>  <!-- Week 02 -->
+   <td>00</td>  <!-- Week 03 -->
+   <th>00</th>  <!-- Task Total -->
+  </tr>
+
+
+  <tr>
+   <th>Weekly Totals</th>
+   <th>00</th>  <!-- Week 01 -->
+   <th>00</th>  <!-- Week 02 -->
+   <th>00</th>  <!-- Week 03 -->
+   <th>00</th>  <!-- Project Total -->
+  </tr>
+
+ 
+ </table>
+ </div> <!-- /schedule -->
+
+
+ <div id="risks">
+ <h3>Risk Management</h3>
+ <div class="todo">
+  TODO: List and rank the major risks of this project, and what you plan to
+  do to mitigate each risk.  If you don't plan to do anything to
+  mitigate the risk, state that.  Use the risk list below, or the <a
+  href="risks.html">risks worksheet</a>.
+ </div>
+
+ <p>Please see the <a href="risks.html">risks worksheet</a>.</p>
+
+ <p>The main risks of this project are:</p>
+ <ol class="sample1">
+  <li>There is a potential conflict between the goals of a
+  high-quality appearance and one that is completely customizable.  We
+  can only succeed if players find the web site appealing, and game
+  vendors can customize it with no more effort than would be needed to
+  build a static website.  We already have a design in mind that will
+  address this risk and we will review it with a web site designer who
+  worked for a game vendor site.</li>
+
+  <li>There are significant technical difficulties in building a web
+  site and web application.  This will be a risk because one person on
+  our team has much experience with the relevant tools and
+  technologies.  Although the others will learn, we will certainly
+  make some mistakes and suboptimal choices.  We will address this
+  risk by scoping the project such that we have enough time to train
+  and to review the design and implementation.</li>
+
+  <li>The schedule for this project is very short.  We will manage
+  this by planning a conservatively scoped functional core and series
+  of functional enhancements that can be individually slipped to later
+  releases if needed.</li>
+
+  <li>The performance of the system will be significantly impacted by
+  the decisions made during the <a href="#3.2.C">database design
+  task</a>.  None of our current team members has experience with
+  database optimization.  To address this, we will arrange a review
+  meeting with an experienced DBA or hire a consultant from the
+  database vendor.</li>
+
+  <li>We could be underestimating known tasks. HOW TO AVOID/MITIGATE?</li>
+
+  <li>We could be underestimating the impact of unknown tasks. HOW TO
+  AVOID/MITIGATE?</li>
+
+  <li>We could be underestimating the dependencies between tasks. HOW
+  TO AVOID/MITIGATE?</li>
+
+  <li>We could have misunderstood the customer's requirements.  HOW TO
+  AVOID/MITIGATE?</li>
+
+  <li>The customer could change the requirements.  HOW TO
+  AVOID/MITIGATE?</li>
+
+  <li>We could face major difficulties with the technology chosen for
+  this project.  HOW TO AVOID/MITIGATE?</li>
+
+  <li>We could have low quality that demands significant rework.  HOW
+  TO AVOID/MITIGATE?</li>
+
+  <li>We could incorrectly assess our progress until it is too late to
+  react.  HOW TO AVOID/MITIGATE?</li>
+
+  <li>We could lose resources.  E.g., team members could get sick,
+  spend time on other projects, or quit.  HOW TO AVOID/MITIGATE?</li>
+
+  <li>There may be a mis-alignment of stakeholder goals or expectations.
+  HOW TO AVOID/MITIGATE?</li>
+ 
+ </ol>
+ </div> <!-- /risks -->
+
+
+
+ <div id="dependencies"> 
+ <h3>Project Planning Dependencies</h3>
+
+ <dl>
+
+  <dt>Does this project conflict or compete for resources with any
+  other project?</dt>
+
+  <dd class="sample1">No, this is the only project that we are working
+  on.</dd>
+
+  <dd class="sample2">Yes, and we have determined how many hours each
+  person can actually dedicate to this project.</dd>
+
+
+  <dt>Are the same human or machine resources allocated to maintenance
+  of past versions and/or planning of future versions during this
+  release time period?</dt>
+
+  <dd class="sample1">No, this is the first release and we will not
+  plan the next release.</dd>
+
+  <dd class="sample2">Yes, we predict that team members
+  will spend an average of 20% of their time maintaining
+  previous releases and planning future releases during this release
+  time frame.  Some weeks may be higher if an urgent patch to a
+  previous release is needed.</dd>
+
+
+
+  <dt>Does this project depend on the success of any other
+  project?</dt>
+
+  <dd class="sample1">No, this project stands alone.</dd>
+
+  <dd class="sample2">Yes, project P1 must provide library L, and
+  project P2 must prove the usability of feature F, and....</dd>
+
+  
+  <dt>Does any other project depend on this project?</dt>
+
+  <dd class="sample1">No, project is not producing any components that
+  will be used in other current projects.</dd>
+
+  <dd class="sample2">Yes, we must produce library L for our project
+  and support users of L in projects P1 and P2.</dd>
+
+
+  <dt>Are there any other important dependencies that will affect this project?</dt>
+
+  <dd class="sample1">No, everything is covered above.</dd>
+
+  <dd class="sample2">Yes.  DETAILS....</dd>
+
+  
+ </dl>
+ </div> <!-- /depenencies -->
+ 
+
+</div>
+
+ <div class="todo">
+  TODO:  Check for <a
+  href="http://readyset.tigris.org/words-of-wisdom/plan.html">words
+  of wisdom</a> and discuss ways to improve this template.
+  Or, evaluate the ReadySET Pro <a title="pro use case template and sample test plan"
+  href="http://www.readysetpro.com/">professional project plan template</a>.
+ </div>
+
+<div class="legal1">Company Proprietary</div>
+
+<div class="footnote">
+ Copyright &#169; 2003-2004 Jason Robbins.  All rights reserved. <a href="readyset-license.html">License terms</a>.
+ Retain this copyright statement whenever this file is used as a
+ template.
+</div>
+
+</div>
+</body>
+</html>
